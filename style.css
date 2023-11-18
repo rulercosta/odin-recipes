@@ -1,10 +1,5 @@
 /* style.css */
 
-html
-{
-    box-sizing: border-box;
-}
-
 *
 {
     background-color:pink;
@@ -12,23 +7,14 @@ html
 
 .heading
 {
-    margin: 10px;
-    margin-left: 0%;
-    padding: 10px;
-    border: 20px solid deeppink;
-    background-color:hotpink;
-    text-align: center;
-    color: bisque;
-    font-family: fantasy;
-    font-weight: lighter;
-    font-size: 100px;
+    margin: 10px auto; padding: 10px; border: 20px solid deeppink;
+    background-color: hotpink; color: bisque;
+    text-align: center; font-family: fantasy; font-weight: normal; font-size: 50px;
+    display: table;
 }
 
 .chiyo
 {
-    margin: 1px 10px;
-    margin-left: 0%;
-    border: 20px solid deeppink;
-    width: 30%;
-    height: auto;
+    margin: 10px auto; /*padding: 10px;*/ border: 20px solid hotpink/*deeppink*/;
+    /*background-color: hotpink;*/ width: auto; height: auto;
 }
