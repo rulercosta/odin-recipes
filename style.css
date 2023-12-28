@@ -15,6 +15,16 @@
 
 .chiyo
 {
-    margin: 10px auto; /*padding: 10px;*/ border: 20px solid hotpink/*deeppink*/;
-    /*background-color: hotpink;*/ width: 30%; height: auto;
+    margin: 10px auto;
+    width: 40%; height: auto;
+}
+
+#gif
+{
+    display: inline-block;
+}
+
+#list
+{
+    display: inline-block;
 }
