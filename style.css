@@ -1,30 +1,53 @@
 /* style.css */
 
-*
+body
 {
-    background-color:pink;
+    background-image: url("bg.gif");
+}
+
+a.nounderline
+{
+    font-family: 'Cursive standard';
+    text-decoration: none;
+}
+
+.textbox
+{
+    color: white;
+    padding: 1%;
+    background-color:rgb(241, 144, 160);
+    border-radius: 50px;
+    box-shadow: 2px 3px 4px black;
 }
 
 .heading
 {
-    margin: 10px auto; padding: 10px; border: 20px solid deeppink;
-    background-color: hotpink; color: bisque;
-    text-align: center; font-family: fantasy; font-weight: normal; font-size: 50px;
-    display: table;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.chiyoskitchen
+{
+    background-color:rgb(241, 144, 160);
+    padding: 1%;
+    border-radius: 50px;
+    box-shadow: 2px 3px 4px black;
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.rounded
+{
+    border-radius: 50px;
 }
 
 .chiyo
 {
-    margin: 10px auto;
-    width: 50%; height: auto;
-}
-
-#gif
-{
-    display: inline-block;
-}
-
-#list
-{
-    display: inline-block;
+    width: 10%; height: auto;
 }
