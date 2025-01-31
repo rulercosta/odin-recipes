@@ -190,7 +190,21 @@ h1, h2, h3 {
 }
 
 .chiyo-img {
-  width: 6rem;
+  width: 250px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.footer-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0 5%;
+}
+
+.cooking-img {
+  width: 350px;
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -209,6 +223,20 @@ h1, h2, h3 {
   .recipe-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer-images {
+    padding: 0;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .cooking-img {
+    width: 350px;
+  }
+
+  .chiyo-img {
+    width: 250px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -222,5 +250,23 @@ h1, h2, h3 {
 
   .recipe-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-images {
+    padding: 0;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .chiyo-img, .cooking-img {
+    width: 5rem;
+  }
+
+  .cooking-img {
+    width: 200px;
+  }
+
+  .chiyo-img {
+    width: 150px;
   }
 }
